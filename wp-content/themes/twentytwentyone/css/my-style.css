@@ -1,0 +1,11 @@
+.site-title {
+  background: gold;
+}
+
+.home .mars {
+  background-image: url(../../../uploads/2024/02/mars1.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  color: #ffffff;
+  padding: 180px 0;
+}
