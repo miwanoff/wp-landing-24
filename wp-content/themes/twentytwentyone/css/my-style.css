@@ -1,11 +1,83 @@
-.site-title {
+/* .site-title {
   background: gold;
+} */
+
+.site-main {
+  padding-top: 24px;
+  padding-bottom: 0;
 }
 
 .home .mars {
   background-image: url(../../../uploads/2024/02/mars1.jpg);
   background-attachment: fixed;
   background-size: cover;
+  background-position: center -90px;
+  background-repeat: no-repeat;
   color: #ffffff;
-  padding: 180px 0;
+  padding: 100px 0;
+}
+
+.site-header {
+  padding-top: 16px;
+  padding-bottom: 0;
+}
+
+#menu-yakirne-menyu {
+  list-style: none;
+  /* width: 400px; */
+  display: flex;
+}
+
+#menu-yakirne-menyu li {
+  padding-right: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+.site textarea {
+  border: none;
+  line-height: 1;
+  padding: 8px;
+  margin: 4px;
+  max-width: 100%;
+}
+
+.wpcf7-form {
+  display: flex;
+  justify-content: center;
+}
+
+.wpcf7-form p {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wpcf7-form p br {
+  display: none;
+}
+
+.bbp-logged-in {
+  display: flex;
+  flex-direction: column;
+}
+.bbp-logged-in a {
+  width: 160px;
+}
+
+.widget-area {
+  margin-top: 0;
 }
